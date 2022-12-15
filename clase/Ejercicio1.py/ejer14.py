@@ -33,6 +33,7 @@ string = " "
 for i in range(numpersonas):
     nombre=input("¿Cómo te llamas?: ")
     list.append(nombre)
+    
 for j in range(len(list)):
     string = string + list[j] + " , "  
 print("Hola: " +string + " . ")

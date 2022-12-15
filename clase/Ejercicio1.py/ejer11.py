@@ -34,3 +34,7 @@ print("La palabra más lagra tiene", long, "caracteres")
 print("Número de palabras en total: ", count)
 
 
+
+#El split por cada espacio en blanco lo va a pasar a una lista, utilizando el espacio como caraacter de separacion.
+# palabras = frase_prueba.split("u")   En este caso cogeria como separacion la u
+

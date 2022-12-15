@@ -16,4 +16,13 @@ print("Hola, " + str(nombres_alumnos) + ".")
 
 
 
+#_________Profesor____________
+
+aula = list()
+personas = int(input("Introduce el número de personas que hay en clase :"))
+for personas in range(personas):
+    nombres = input("Intorduce tu nombre: ")
+    aula.append(nombre)
+print(personas, "Hola", aula)
+
 

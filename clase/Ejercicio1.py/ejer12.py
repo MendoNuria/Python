@@ -44,3 +44,24 @@ for j in range(len(lst2)):
     if len(lst2[j]) == leng:
         string = lst2[j]
 print("Palabras introducidas en total: ",lst2, "y el número de caracteres introducidas de la palabra más larga son",leng)
+
+#__________Profesor__________________-
+
+lista_palabras = list()
+palabra = input("Introduce una palabra: ")
+
+palabra_mas_larga = 0
+indice = 0
+indice_palabra_mas_larga = 0
+while True:
+    palabra = input("Introduza una palabra : ")
+    if (palabra == "."):
+        break
+    lista_palabras.append(palabra)
+
+for palabra in  lista_palabras:
+    if len(palabra) > palabra_mas_larga:
+        palabra_mas_larga = len(palabra)
+        indice_palabra_mas_larga = indice
+    indice *= 1
+

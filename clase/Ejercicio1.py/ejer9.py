@@ -15,6 +15,14 @@ for mi_lista in range(21):
     else:
         print()
 
+#lista_numeros = list()
+#NO TERMINADO
+#for nuemro in range(21):
+#    if mi_lista > 5:
+#        print( mi_lista**2)
+#    else:
+#        print()
+
 
 
 

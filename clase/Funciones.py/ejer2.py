@@ -8,9 +8,11 @@
 #Nota: El método sort() de Python permite ordenar una lista.
 
 
-def clasificarNumeros(listaDesordenada, listPar, listImpar):
+def clasificarNumeros(listaDesordenada: list(), listPar: list()):
     #Ordeno la lista principal desde el principio
-    listaDesordenada.sort()
+    #listaDesordenada.sort()
+    listImpar= []
+    print(listaDesordenada)
     for i in listaDesordenada:
         if i%2 == 0:
             listPar.append(i)
@@ -18,13 +20,21 @@ def clasificarNumeros(listaDesordenada, listPar, listImpar):
             listImpar.append(i)
     print("Lista de pares: ",listPar)
     print("Lista de impares: ",listImpar)
+    listImpar.sort()
+    print(listImpar)
+    #print("Lista ordenada de impares",listImpar.sort())
 
 def main():
     try:
-        listaParVacia= [] #list()
-        listaImparVacia= [] #list()
-        listaEntero = ["b",-1,7,6,5]
-        clasificarNumeros(listaEntero,listaParVacia,listaImparVacia)
+        a = int(input("Introducir un valor: "))
+        listaParVacia= [] 
+        listaImparVacia= [] 
+        listaEntero = [-1,9,2,20,-2,8-7,1]
+        clasificarNumeros(listaEntero,listaParVacia)
+    
     except TypeError:
         print("La lista sólo debe contener números")
+        
 main()
+
+#Proposito de las excepciones es para gestionar errores no gestionadO. 

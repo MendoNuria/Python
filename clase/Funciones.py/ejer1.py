@@ -12,7 +12,34 @@
 #Devolver los resultados de sus operaciones al programa principal.
 
 
-import math
+import math # hacer llamadas a bibliotecas matemáticas  y creamos un metodo math
+# def main():
+#   area = 0.0
+#       entrada = input("1 area triangula\n, 2 area rectangualo\n, 3 area del circulo. Elije opcion 1,2 o 3")
+#       if (entrada == "1"):
+#         areqa = calcula_triangulo
+#         print("El araea del triangulo es ", area)
+##calcula el area del triangulo
+#       elif (entrada == "2"):
+#calculael area de rectangulo 
+#       
+#       elif (entrada == "3"):
+#calcula area del circulo
+#       pass
+#       else:
+#       print("La opcion no es válida ")
+#
+#
+#def calcula_area_triangulo():
+#   area_triangulo = 0.0
+#   base = float(input("Introduce"))
+# NO TERMINADO
+
+
+
+
+
+
 def triangulo(base, altura):
     return (base*altura)/2
 def rectangulo(base, altura):
@@ -46,3 +73,4 @@ def main():
     exit()
 
 main()
+#Proposito de las excepciones es para gestionar errores no gestionado

@@ -3,7 +3,7 @@
 # que irán prefijadas en el código del script y serán siempre las 
 # mismas.
 # Por ejemplo: ["Hola", "Adiós", "Saludos"]
-
+# split    separas
 
 # 1º Forma
 palabras = "Hola, Adiós, Saludos"
@@ -35,3 +35,17 @@ print ("La palabra más larga es: ",  string)
 #     if len(palabra[j]) == long:
 #             string = palabra[j]
 # print(string)
+
+palabras1 = "Hola, Adiós, Saludos"
+palabra_mas_larga = 0
+indice = 0
+indice_palabra_mas_larga = 0
+for palabra1 in palabras1:
+    if len(palabra1) > palabra_mas_larga:
+        palabra_mas_larga = len(palabra1)
+        indice_palabra_mas_larga = indice
+    indice+= 1
+print("Longitudd palabra más larga: ", palabra_mas_larga)
+print("Longitudd palabra más larga: ", palabras1[indice_palabra_mas_larga])
+
+#
