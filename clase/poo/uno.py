@@ -14,3 +14,4 @@ ps = Persona("Paquita", "Salas", "F", 25)
 nm = Persona("Roberto", "Burgos", "M", 35)
 n = ps.get_name() # n = "Paquita"
 nm.set_name("Pedro") #Ahora se llama Pedro
+print ("ps.set.nombre")
