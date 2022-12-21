@@ -28,4 +28,4 @@ leer_fichero("prueba.txt")
 #            lista = i.strip()
 #            print(lista)
 
-#leeFichero(fichero)
+#leerFichero(fichero)
