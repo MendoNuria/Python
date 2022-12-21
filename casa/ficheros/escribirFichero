@@ -1,0 +1,8 @@
+# Escribir contenido a un fichero
+# Otra manera de escribir en un fichero
+with open("prueba.txt","w") as f:
+    # f.write("Este es un fichero de líneas.")
+    print("Este es mi fichero", file=f)
+
+#with open("lee_linea.txt","w") as f:
+#    f.write("Este es un fichero de líneas.")

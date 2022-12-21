@@ -24,7 +24,7 @@ try:
                 #^ empieza    y $ termina
                 confidencia = i.split(":")
                 # Vamos al archivo de correo 
-                total = total * float(confidencia[1])
+                total = total + float(confidencia[1])
                 contador += 1 # cogemos una lista. el valor de confidencia incrementado el contador
         media = total / contador
         print("La media de contador es:", media)
